@@ -1,0 +1,36 @@
+.dad {
+    margin: auto auto auto auto;
+}
+.game {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 12px;
+    color: white;
+}
+
+.title {
+    background: #f25;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    text-decoration: sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.squre {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background: #f25;
+    font-weight: 900px;
+    height: 30px;
+}
+
+.squre:hover {
+    background-color: rgb(255, 74, 74);
+    cursor: pointer;
+}
+span {
+    color: yellow;
+}
